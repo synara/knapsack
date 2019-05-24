@@ -28,14 +28,16 @@ class GreedKnapsack(object):
         result = []
 
         self.items = sorted(self.items, key=self.get_tip, reverse=True)
-        print(self.items)
+        
+        #print para testes
+        #print(self.items)
 
         capacity = 0
         for item in self.items:
             if(capacity + item.get_weight() <= self.max_capacity):
                 result.append(item)
                 capacity += item.get_weight()
-                
+
         return result
 
 if __name__ == '__main__':
