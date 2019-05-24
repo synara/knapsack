@@ -53,7 +53,8 @@ if __name__ == '__main__':
     greed.add_items(items)
     print(greed.solve())
 
-    #considerar isso para o trabalho: ler o pdf de computação evolutiva
+    #ler o pdf de computação evolutiva: http://www.inf.ufpr.br/aurora/tutoriais/Ceapostila.pdf
+    #considerar isso para o trabalho
     #ga = GAKnapsack(7)
     #ga.add_items(items)
     #print(ga.solve(20))
