@@ -42,7 +42,7 @@ class GreedKnapsack(object):
 
 if __name__ == '__main__':
     values = [ 1, 4, 5, 7 ]
-    weights = [ 1, 3, 4, 5 ]
+    weights = [ 1, 3, 4, 5 ] 
 
     items = []
 
@@ -52,3 +52,8 @@ if __name__ == '__main__':
     greed = GreedKnapsack(7)
     greed.add_items(items)
     print(greed.solve())
+
+    #considerar isso para o trabalho: ler o pdf de computação evolutiva
+    #ga = GAKnapsack(7)
+    #ga.add_items(items)
+    #print(ga.solve(20))
